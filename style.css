@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 100vh;
+    color: #a5c5e6;
+    font-family: 'Agency FB', sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background: url(./Background.png);
+}
+
+p {
+    width: 100%;
+    font-size: 65px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.unit{
+    font-size: 50px;
+    color: #a5c5e6;
+}
+
+.number{
+    font-size: 110px;
+    color: #368E83;
+}
+
+@media only screen and (max-width: 750px) {
+    p {
+        font-size: 30px;
+    }
+
+    .unit{
+        font-size: 25px;
+    }
+
+    .number{
+        font-size: 40px;
+    }
+}
